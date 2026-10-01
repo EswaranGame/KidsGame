@@ -13,6 +13,11 @@ public class Sample : MonoBehaviour
         Debug.Log("Button clicked!");
     }
 
+    private void Awake()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
