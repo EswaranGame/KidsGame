@@ -7,6 +7,11 @@ public class Sample : MonoBehaviour
     {
         
     }
+    
+    public void OnButtonClick()
+    {
+        Debug.Log("Button clicked!");
+    }
 
     // Update is called once per frame
     void Update()
